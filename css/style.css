@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  color: #020887;
+  font-family: Bebas Neue, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+p {
+  color: #ba3e0d;
+  font-family: Roboto, Calibri, sans-serif
+}
+
+#content {
+  max-width:600px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+}
+
+body {
+  background-color: #a4dfeb;
+}
+
+nav a {
+  color: #020887;
+  font-size: 1.1em;
+}
+
+div {
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 30% auto;
+  background-color:blue;
+  column-gap: 30px;
+  padding: 15px;
+}
+
+.home-grid {
+  display: block;
+}
+
+footer {
+  display: block;
+  background-color:blue;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) { 
+/* beginning of media query */
+    .home-grid {
+    display: block;
+    }
+  
+    h2 {
+    margin-bottom: 0.5em;
+  }
+    
+/* end of media query */ 
+} 
