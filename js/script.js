@@ -1,7 +1,7 @@
 const yearDisplay = document.querySelector('footer h2');
 var today = new Date();
 var todayYear = today.getFullYear();
-yearDisplay.textContent = (todayYear+"  - George Blanchard - Indiana");
+yearDisplay.innerHTML = `&copy; ${todayYear} - George Blanchard - Indiana`;
 
 const modDateDisplay = document.querySelector('footer p');
 let modDate = document.lastModified;
