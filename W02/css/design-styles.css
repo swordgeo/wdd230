@@ -1,0 +1,56 @@
+main {
+  display: block;
+}
+
+img {
+  max-width: 90%;
+}
+
+main h3 {
+  background-color: #fdb833;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (min-width: 32.5em) {
+  main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+  #hicks {
+    grid-column: 1;
+  }
+  
+  #contrast {
+    grid-column: 2;
+  }
+  
+  #thirds {
+    grid-column: 1/3;
+  }
+}
+
+@media (min-width: 64em) {
+  main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #hicks {
+    grid-column: 1;
+  }
+  
+  #contrast {
+    grid-column: 2;
+  }
+  
+  #thirds {
+    grid-column: 3;
+  }
+}
