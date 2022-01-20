@@ -6,7 +6,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin-top: 15px;
   margin-bottom: 0px;
+  /*font-size: 1.45em;*/
+  font-size: 150%;
 }
+/*
+h1 {
+  padding: 3%;
+}*/
 
 p {
   color: #8f1423;
@@ -14,7 +20,7 @@ p {
 }
 
 #content {
-  max-width:600px;
+  max-width:90%;
   margin: 0 auto;
 }
 
@@ -26,9 +32,18 @@ body {
   background-color: #457b9d;
 }
 
-nav a {
-  color: #7400b8;
-  font-size: 1.1em;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
 }
 
 div {
@@ -45,9 +60,6 @@ header, footer {
   padding: 15px;
 }
 
-header img {
-  max-width: 50%;
-}
 
 .home-grid {
   display: block;
@@ -59,6 +71,37 @@ header img {
   text-align: center;
   justify-content: center;
 }
+
+#logo-header {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+
+
+@media (min-width: 32.5em) {
+  nav ul { display: flex; }
+  nav ul li { flex: 1 1 auto; } 
+
+  
+}
+
+@media (min-width: 64em) {
+  h1 {
+    padding: 10%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 550px) { 
 /* beginning of media query */
