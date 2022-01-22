@@ -71,7 +71,9 @@ img {
   align-items: center;
 }
 
-
+.persona {
+  margin-bottom: 30px;
+}
 
 #logo-header {
   display: grid;
@@ -93,6 +95,7 @@ img {
   .persona {
     display: grid;
     grid-template-columns: 40% auto;
+    
   }
 
 }
