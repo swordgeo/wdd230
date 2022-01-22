@@ -6,13 +6,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin-top: 15px;
   margin-bottom: 0px;
-  /*font-size: 1.45em;*/
-  font-size: 150%;
+  font-size: 1.5em;
 }
-/*
+
 h1 {
-  padding: 3%;
-}*/
+
+  font-size: 2em;
+  
+}
 
 p {
   color: #8f1423;
@@ -70,48 +71,29 @@ header, footer {
   margin-right: auto;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 #logo-header {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: 25% auto;
+  align-items: center;
 }
 
 
 
 @media (min-width: 32.5em) {
   nav ul { display: flex; }
-  nav ul li { flex: 1 1 auto; } 
+  nav ul li { flex: 1 1 auto; }
 
-  
-}
-
-@media (min-width: 64em) {
-  h1 {
-    padding: 10%;
-  }
 
 
 }
 
+@media (min-width: 64em) {
 
 
 
+}
 
 
-
-
-
-
-@media screen and (max-width: 550px) { 
-/* beginning of media query */
-    .home-grid {
-    display: block;
-    }
-  
-    h2 {
-    margin-bottom: 0.5em;
-  }
-    
-/* end of media query */ 
-} 
