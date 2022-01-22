@@ -1,36 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
-  color: #66008b;
-  font-family: Bebas Neue, Arial, sans-serif;
+  color: #d41825;
+  font-family: Mochiy Pop P One, Arial, sans-serif;
   letter-spacing: 1px;
   margin-top: 15px;
   margin-bottom: 0px;
   font-size: 1.5em;
 }
 
-h1 {
-
-  font-size: 2em;
-  
+header, footer {
+  display: block;
+  background-color:#78d0dd;
+  padding: 15px;
 }
 
 p {
-  color: #8f1423;
-  font-family: Roboto, Calibri, sans-serif
-}
-
-#content {
-  max-width:90%;
-  margin: 0 auto;
+  color: #0a1045;
+  font-family: Outfit, Calibri, sans-serif
 }
 
 main {
-  background-color: #a8dadc;
+  background-color: #dbb68f;
+  padding: 5px;
 }
 
 body {
-  background-color: #457b9d;
+  background-color: #ccc;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: #a409ca;
 }
 
 nav ul {
@@ -45,6 +49,8 @@ nav ul li a {
   text-align: center;
   padding: 0.75rem;
   text-decoration: none;
+
+  font-size: 1.1em;
 }
 
 div {
@@ -55,16 +61,7 @@ img {
   max-width: 100%;
 }
 
-header, footer {
-  display: block;
-  background-color:#b5e48c;
-  padding: 15px;
-}
 
-
-.home-grid {
-  display: block;
-}
 
 .center {
   margin-left: auto;
@@ -74,10 +71,17 @@ header, footer {
   align-items: center;
 }
 
+
+
 #logo-header {
   display: grid;
   grid-template-columns: 25% auto;
   align-items: center;
+}
+
+#content {
+  max-width:90%;
+  margin: 0 auto;
 }
 
 
@@ -86,14 +90,24 @@ header, footer {
   nav ul { display: flex; }
   nav ul li { flex: 1 1 auto; }
 
-
+  .persona {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
 
 }
 
 @media (min-width: 64em) {
+  #personas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 
+  .persona {
+    padding: 5px;
+  }
 
-
+  
 }
 
 
