@@ -4,40 +4,47 @@
 <head>
     <title>Chamber of Commerce of Davenport, Indiana - Home</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="George Blanchard">
     <meta name="description" content="Home page of Chamber of Commerce - Davenport Indiana">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    
 
 </head>
 
 <body>
   <div id="content">
     
-    <header>
+    <header class="center">
       <div id="logo-header">
         <img src="images/davenport-logo.png" alt="Davenport IN logo">
         <h1 class="center">Chamber of Commerce of Davenport, Indiana</h1>
-    </div>
+      </div>
+      <date></date>
 
-      <nav>
-        <ul class=navigation>
-          <li><a class="ham" href="#">Menu</a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="target-audience.html">Target Audience</a></li>
-          <li><a href="typography.html">Typography</a></li>
-          <li><a href="color-scheme.html">Color Scheme</a></li>
-          <li><a target="_blank" href="#">Facebook</a></li>
-          <li><a target="_blank" href="#">Twitter</a></li>
-          
-        </ul>  
-      </nav>  
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Page2</a></li>
+        <li><a href="#">Page3</a></li>
+        <li><a href="#">Page4</a></li>
+        <li><a target="_blank" href="#">Facebook</a></li>
+        <li><a target="_blank" href="#">Twitter</a></li>
+        
+      </ul>  
+    </nav>
     </header>
     
+    
+
     <main>
+
+      
+
       <h3 class="center">Site Purpose</h3>
       <p>The Chamber of Commerce of Davenport, Indiana fosters communication, cooperation, and creativity between the many myriad businesses that comprise the economic backbone of our great town!</p>
       <p>Visit us at <a href="index.html">www.davenport-chamber.com</a>!</p>
@@ -63,8 +70,8 @@
     
     <footer class="center">
       <h2>&copy; XXXX - George Blanchard - Indiana </h2>
-      <date></date>
-      <aside></aside>
+      <p id="modDate">Last modified XXXX</p>
+      
     </footer>
   
   </div>

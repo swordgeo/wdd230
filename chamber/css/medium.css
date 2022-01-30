@@ -2,23 +2,18 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
 
+  nav button {display: none;}
 
-  /*Hamburger stuff */
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0,0,0,0.3);
+  }
 
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+  }
 
-  /*End hamburger stuff*/
 
 }
