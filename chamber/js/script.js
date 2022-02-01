@@ -19,7 +19,6 @@ let modDate = document.lastModified;
 modDateDisplay.textContent = ("Last modified "+modDate);
 
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+const datefield = document.getElementById('date');
 const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(today);
 datefield.innerHTML = `<strong>${fulldate}</strong>`;

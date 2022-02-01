@@ -29,16 +29,11 @@ main {
   padding: 5px;
 }
 
-body {
-  background-color: #ccc;
-}
+
 
 a {
   color: #a409ca;
 }
-
-
-
 
 div {
   padding: 5px;
@@ -69,12 +64,6 @@ img {
   grid-gap: 10px;
 }
 
-#content {
-  max-width:90%;
-  margin: 0 auto;
-}
-
-
 /*hamburger*/
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -84,6 +73,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav button {
+  
   margin: .2rem 2vw;
   background: transparent;
   border: none;
@@ -92,6 +82,7 @@ nav button {
 }
 
 nav {
+  
   background-color:#eee;
 
 }
