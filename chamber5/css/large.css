@@ -1,0 +1,17 @@
+@media (min-width: 64em) {
+
+  nav button {display: none;}
+
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2vw;
+    
+  }
+
+  nav ul li a {
+    border: none;
+    
+  }
+  
+}
