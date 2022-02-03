@@ -19,6 +19,8 @@ header, footer {
   padding: 15px;
 }
 
+
+
 p {
   color: #0a1045;
   font-family: Outfit, Calibri, sans-serif
@@ -60,12 +62,52 @@ section {
   margin-bottom: 30px;
 }
 
+#banner {
+  display: none;
+}
 
+#call-to-action {
+  margin: 10px auto;
+  position: relative;
+}
+
+#call-to-action h2 {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+#call-to-action button {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  font-size: 1.4em;
+}
+
+
+/*
 #logo-header {
   display: grid;
   grid-template-columns: 35% auto;
   align-items: center;
   grid-gap: 10px;
+}
+*/
+
+#logo-header {
+  display: grid;
+  grid-template-columns: 25% auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+#date-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social img {
+  max-width: 25%;
 }
 
 #join {
@@ -114,7 +156,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.5);
   color: #fff;
 }
 
