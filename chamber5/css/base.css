@@ -43,6 +43,10 @@ img {
   max-width: 100%;
 }
 
+section {
+  border: 1px solid;
+}
+
 
 .center {
   margin-left: auto;
@@ -62,6 +66,14 @@ img {
   grid-template-columns: 35% auto;
   align-items: center;
   grid-gap: 10px;
+}
+
+#join {
+  display: none;
+}
+
+#spotlights section:nth-child(3) {
+  display: none;
 }
 
 /*hamburger*/
