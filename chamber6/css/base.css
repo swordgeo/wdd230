@@ -39,6 +39,7 @@ a {
 
 div {
   padding: 5px;
+  
 }
 
 img {
@@ -47,6 +48,11 @@ img {
 
 section {
   border: 1px solid;
+  padding: 5px;
+}
+
+button {
+  font-size: 1.4em;
 }
 
 
@@ -85,7 +91,7 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  font-size: 1.4em;
+  
 }
 
 

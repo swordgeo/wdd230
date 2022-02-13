@@ -35,14 +35,29 @@
     grid-row: 3; 
   }
 
-  #spotlights section:nth-child(3) {
-    display: block;
-  }
-
   #spotlights {
     grid-column: 3;
     grid-row: 1/4;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+
+  }
+
+  #spotlights section:nth-child(1) {
     display: block;
+    flex-grow: 0.5;
+  }
+
+  #spotlights section:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+  }
+
+  #spotlights section:nth-child(3) {
+    display: block;
+    flex-grow: 1;
   }
 
   #join {
