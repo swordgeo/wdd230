@@ -2,7 +2,7 @@ const pictures = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
   threshold: 0,
-  rootMargin: "0px 0px 0px 0px"
+  rootMargin: "0px 0px -150px 0px"
 };
 
 const loadImages = (image) => {
@@ -19,7 +19,7 @@ if('IntersectionObserver' in window) {
       if (!image.isIntersecting) {return;}
       else {
         loadImages(image.target);
-        imgObserver.unobserve(entry.target);
+        imgObserver.unobserve(image.target);
       }
     });
   }, imgOptions);
