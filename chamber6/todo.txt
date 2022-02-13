@@ -1,0 +1,6 @@
+Optimize my images with pixlr
+
+Entire website should be 500kb or less
+
+use <picture> elements to use images to make it easy to have responsive images
+
