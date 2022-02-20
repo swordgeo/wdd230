@@ -35,13 +35,12 @@
     top: 100px;
     left: 60px;
     font-size: 1.5em;
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-  }
+    }
 
 
 
   /*grid below*/
-  main {
+  #home-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
@@ -88,6 +87,9 @@
   }
   /*grid above*/
   
-
+  #discovery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 }
