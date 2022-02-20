@@ -16,15 +16,29 @@
     padding: 5px;
   }
 
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+  }
+
   #call-to-action img {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
 
-  #call-to-action h2::after {
-    content: " - LARGE";
+  #call-to-action h2 {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    font-size: 1.5em;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
   }
+
+
 
   /*grid below*/
   main {

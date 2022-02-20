@@ -19,8 +19,6 @@ header, footer {
   padding: 15px;
 }
 
-
-
 p {
   color: #0a1045;
   font-family: Outfit, Calibri, sans-serif
@@ -31,15 +29,8 @@ main {
   padding: 5px;
 }
 
-
-
 a {
   color: #a409ca;
-}
-
-div {
-  padding: 5px;
-  
 }
 
 img {
@@ -54,7 +45,6 @@ section {
 button {
   font-size: 1.4em;
 }
-
 
 .center {
   
@@ -77,13 +67,12 @@ button {
 }
 
 #call-to-action h2 {
+  
+  /*color: #eeff58;*/
   position: absolute;
-  top: 35px;
-  left: 35px;
-}
-
-#call-to-action h2::after {
-  content: " - SMALL";
+  top: 60px;
+  left: 60px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #call-to-action button {
