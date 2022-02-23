@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+table {
+	margin: 10px auto;
+	border: thin solid black;
+	box-shadow: 5px 5px 10px #628CA6;
+	border-collapse: collapse;
+  font-family: Ubuntu, sans-serif; 
+}
+
+tr:first-child th {
+	background-color: #7FB9C2;
+	color: black;
+  font-size: 1.4em;
+}
+
+th, td {
+	padding: 7px 10px;
+	border: 1px solid #90A4B1;
+}
+
+th, #nov {
+	background-color: #628CA6;
+  color: white;
+}
+
+th {
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #E7FFED;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #E7F0ED;
+}
+
+tfoot {
+  background-color: #7FB9C2;
+}
+
+/*https://html-color-codes.info/colors-from-image/*/
