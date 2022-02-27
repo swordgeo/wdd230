@@ -41,17 +41,13 @@
     </nav>
     </header>
     
-  
     <main>
-
-
       <form method="get" action="thankyou.html">
         <fieldset id="applicant">
           <legend>Applicant Information</legend>
           <label class="top">First Name*<input type="text" name="fname" required></label>
           <label class="top">Last Name*<input type="text" name="lname" required></label>
           <label class="top">Business Position Title<input type="text" name="position" placeholder="Founder/Owner" pattern="[-\s\da-zA-Z]{7,}"   oninput="setCustomValidity(''); checkValidity(); setCustomValidity(validity.valid ? '' :'Please use 7+ characters from letters, numbers, spaces, and hyphens.');"></label>
-          <!-- - A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters using a regular expression (Links to an external site.) pattern.-->
           <label class="top">Cell Number<input type="tel" name="phone" placeholder="1235551234"></label>
           <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
           <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
@@ -68,13 +64,8 @@
             <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership - $249/year</label>
             <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership - $499/year</label>
             <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership - $999/year</label>
-            
-            
             <label><input id="datefield" type="hidden" name="date"></label>
-            <!--set value in Javascript-->
-            <!-- - A hidden field that contains the current date and time that the form was loaded by the user.-->
           </div>
-
 
           <div id="member-info">
             <h2>Tiers of Membership</h2>
@@ -94,41 +85,7 @@
         <input class="submitBtn center" type="submit" value="Submit Your Application">
 
       </form>
-     <!--
-The form page must contain the following form elements, types, and attributes.
 
-Each field element should have an appropriate name attribute
-Each field element, including the textarea, should be encased in a <label> tag to support accessibility (Links to an external site.).
-Ensure that the design meets standards such as eye tracking in a straight line and proper keyboard progression (tabs) for accessibility. See the week's activity and Designing more Efficient Forms (Links to an external site.)
-Create a new page named "thankyou.html" that expresses gratitude for filling out the form. This page should load when the user has successfully submitted the form. The design should follow your site pattern and does not need to have a lot of actual content.
-
-(((❕ Note that GitHub Pages will not support form HTTP POST method.
-
-The submission of this form will not process any of the input (i.e, will not send email, create a database record, automatically publish to user comment page, etc.) This processing is beyond the scope of the course but may be of great interest to you because the process is certainly relevant in the full-stack world of web development.)))
-
-The design should deviate from the module activity example in that you should "make it your own".
-As always, web pages need to meet all standard criteria of valid, standards-based, semantic markup and be responsive in all viewports.
-Post to your GitHub Pages and provide an updated link in your assignment portal home page.
-
-
-     -->
-
-
-     
-     <!--
- - A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level.
-     - There are four membership levels.
-     - Membership level benefits should be displayed to the side of the form in larger views.
-         - NP Membership is for non profit organizations and there is no fee.
-         - Bronze Membership.
-         - Silver Membership
-         - Gold Membership
-     - This memberships have increasing costs as well as increased benefits per level like trainings, advertising (like on the home page spotlights), event discounts, etc.
-
-     -->
-
-
-      
     </main>
     
     <footer class="center">
