@@ -92,29 +92,14 @@
     grid-template-columns: 1fr 1fr;
   }
 
-
-
-  form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  form h2, h3 {
-    font-size: 1.2em;
-  }
+/* Form */
 
   #applicant {
-    grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   form label.top input, form label.top select {
-    width: 90%;
-  }
-
-  #textarea {
     width: 90%;
   }
 
@@ -128,6 +113,11 @@
     grid-column: 2/3;
     grid-row: 2;
     max-width: 95%;
+  }
+
+  #business {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
 }

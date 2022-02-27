@@ -68,20 +68,16 @@
 
   #discovery section picture img:hover {box-shadow: 0 0 50px #333;}
 
-  form h2, h3 {
-    font-size: 1.2em;
-  }
+
+
+  /* Form */
+
 
   #applicant {
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  #member-info {
-    max-width: 100%;
-  }
-
 
   form label.top input, form label.top select {
     width: 90%;
