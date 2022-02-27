@@ -18,8 +18,8 @@ function displayProphets(prophet) {
   let image = document.createElement('img');
 
   heading.textContent = prophet.name+' '+prophet.lastname;
-  birthDate.textContent = 'Birthdate: '+prophet.birthdate;
-  birthPlace.textContent = 'Birthplace: '+prophet.birthplace;
+  birthDate.textContent = 'Date of Birth: '+prophet.birthdate;
+  birthPlace.textContent = 'Place of Birth: '+prophet.birthplace;
   image.src = prophet.imageurl;
   image.alt = prophet.name+' '+ prophet.lastname+' - '+prophet.order;
 
