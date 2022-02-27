@@ -44,28 +44,52 @@
   
     <main>
 
-     <!--
-      
-The form page must contain the following form elements, types, and attributes.
-  - Use a form field with a get method and action that points to a confirmation page named "thankyou.html".
-  - A first name input of type text and is required.
-  - A last name input of type text and is required.
-  - A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters using a regular expression (Links to an external site.) pattern.
-  - A email using input of type email that is required and provides a placeholder which contains an example email input.
-  - A cell phone number using input of type tel and is required.
-  - A business name/title text field that is required
-  - A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level.
-      - There are four membership levels.
-      - Membership level benefits should be displayed to the side of the form in larger views.
-          - NP Membership is for non profit organizations and there is no fee.
-          - Bronze Membership.
-          - Silver Membership
-          - Gold Membership
-      - This memberships have increasing costs as well as increased benefits per level like trainings, advertising (like on the home page spotlights), event discounts, etc.
 
-  - A business description textarea where the user can briefly describe their business.
-  - A hidden field that contains the current date and time that the form was loaded by the user.
-  - A form submission button using input of type submit that is properly labeled.
+      <form method="get" action="thankyou.html">
+        <fieldset id="applicant">
+          <legend>Applicant Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Business Position Title
+            <input type="text" name="position" placeholder="Founder/Owner" pattern="[-\s\da-zA-Z]{7,}"   oninput="setCustomValidity(''); checkValidity(); setCustomValidity(validity.valid ? '' :'Please use 7+ characters from letters, numbers, spaces, and hyphens.');"
+
+          ></label>
+          <!-- - A business position title field of type text that is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters using a regular expression (Links to an external site.) pattern.-->
+          <label class="top">Cell Number<input type="tel" name="phone" placeholder="1235551234"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+        </fieldset>
+
+        <fieldset id="business-info">
+          <legend>Membership Information</legend>
+          <div>Business Information</div>
+          <label class="top">Business Name*<input type="text" name="business" required></label>
+          <label class="top" for="textarea">Business Description</label>
+          <textarea id="textarea" name="textarea"></textarea>
+
+
+          <div>Membership Level</div>
+          <label class="sbs"><input type="radio" name="audience" value="non-profit"> Non-Profit Membership - $0/year</label>
+          <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership - $249/year</label>
+          <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership - $499/year</label>
+          <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership - $999/year</label>
+        </fieldset>
+
+        <label><input id="datefield" type="hidden" name="date"></label>
+          <!--set value in Javascript-->
+        <!-- - A hidden field that contains the current date and time that the form was loaded by the user.-->
+
+        <input class="submitBtn" type="submit" value="Submit Your Application">
+
+        <div id="member-info">
+          <h2>Membership Benefits</h2>
+
+        </div>
+        
+
+      </form>
+     <!--
+The form page must contain the following form elements, types, and attributes.
 
 Each field element should have an appropriate name attribute
 Each field element, including the textarea, should be encased in a <label> tag to support accessibility (Links to an external site.).
@@ -84,7 +108,18 @@ Post to your GitHub Pages and provide an updated link in your assignment portal 
      -->
 
 
+     
+     <!--
+ - A membership level selection using an appropriate form field of your choosing to allow the user to select a membership level.
+     - There are four membership levels.
+     - Membership level benefits should be displayed to the side of the form in larger views.
+         - NP Membership is for non profit organizations and there is no fee.
+         - Bronze Membership.
+         - Silver Membership
+         - Gold Membership
+     - This memberships have increasing costs as well as increased benefits per level like trainings, advertising (like on the home page spotlights), event discounts, etc.
 
+     -->
 
 
       
@@ -98,6 +133,7 @@ Post to your GitHub Pages and provide an updated link in your assignment portal 
   
   </div>
   <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
 </body>
 
 </html>
