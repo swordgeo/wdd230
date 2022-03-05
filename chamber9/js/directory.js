@@ -55,19 +55,23 @@ function displayListings(business) {
   listing.appendChild(phone);
   listing.appendChild(address);
   listing.appendChild(link);
-  document.querySelector('.table').appendChild(listing);
-  
-
-  
+  document.querySelector('.listings').appendChild(listing);
 }
 
 
-/*
-  "name": "Cletus' Cockroach Cillers",
-  "address": "",
-  "phone": "(260) 555-0111",
-  "website":"https://www.CletusMurdersBugs.com/",
-  "image":"images/directory/ccc.png"
+//swap buttons
 
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Contact Us</a>
-  */
+
+
+
+
+const z = document.getElementById('listingsBtn');
+z.onclick = toggleDirectory('.listings', '.cards', );
+
+const y = document.getElementById('cardsBtn');
+y.onclick = toggleDirectory('.cards', '.listings');
+
+function toggleDirectory(showing, hiding) {
+  document.querySelector(showing).classList.remove("open");
+  document.querySelector(hiding).classList.add("open");
+}

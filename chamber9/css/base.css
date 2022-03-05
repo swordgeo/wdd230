@@ -220,7 +220,7 @@ form h3 {
   display: block;
 }
 
-.cards.open, .table.open, #banner, #join, #spotlight3{
+.cards.open, .listings.open, #banner, #join, #spotlight3{
   display: none;
 }
 
@@ -233,24 +233,24 @@ form h3 {
   border-radius: 20px 20px 20px 20px;
 }
 
-.table {
+.listings {
   list-style-type: none;
   margin-left: -20px;
   margin-right: 20px;
 }
 
-.table li {
+.listings li {
   padding: 10px;
 }
 
-.table li span, .table li a{
+.listings li span, .listings li a{
   display: block;
 }
 
-.table li:nth-child(even) {
+.listings li:nth-child(even) {
 	background-color: #E7FFED;
 }
 
-.table li:nth-child(odd) {
+.listings li:nth-child(odd) {
 	background-color: #E7F0ED;
 }

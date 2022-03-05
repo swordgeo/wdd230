@@ -125,7 +125,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .table li{
+  .listings li{
     display: grid;
     grid-template-columns: 25% 15% 25% 1fr;
   }
