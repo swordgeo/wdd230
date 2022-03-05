@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Join Form Page For The Chamber of Commerce of Davenport, Indiana</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="George Blanchard">
+    <meta name="description" content="Join page of Chamber of Commerce - Davenport Indiana">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <div id="content">
+    
+    <header  class="center">
+      <div id="logo-header">
+        <img src="images/davenport-logo.webp" alt="Davenport IN logo">
+        <h1 class="center">Chamber of Commerce of Davenport, Indiana</h1>
+      </div>
+      <div class="center" id="date-social">
+        <div id="date"></div>
+        <div id="social">
+          <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" ></a>
+          <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter" ></a>
+        </div>
+      </div>
+
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li><a  href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li class="active"><a href="#">Join The Chamber</a></li>
+        <li><a href="#">Page4</a></li>  
+      </ul>  
+    </nav>
+    </header>
+    
+    <main>
+      <form method="get" action="thankyou.html">
+        <fieldset id="applicant">
+          <legend>Applicant Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Business Position Title<input type="text" name="position" placeholder="Founder/Owner" pattern="[-\s\da-zA-Z]{7,}"   oninput="setCustomValidity(''); checkValidity(); setCustomValidity(validity.valid ? '' :'Please use 7+ characters from letters, numbers, spaces, and hyphens.');"></label>
+          <label class="top">Cell Number<input type="tel" name="phone" placeholder="1235551234"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+        </fieldset>
+
+        <fieldset id="business">
+          <legend>Membership Information</legend>
+          <div id="business-info">
+            <label class="top">Business Name*<input type="text" name="business" required></label>
+            <label class="top" for="textarea">Business Description</label>
+            <textarea id="textarea" name="textarea"></textarea>
+            <div>Membership Level</div>
+            <label class="sbs"><input type="radio" name="audience" value="non-profit"> Non-Profit Membership - $0/year</label>
+            <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership - $249/year</label>
+            <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership - $499/year</label>
+            <label class="sbs"><input type="radio" name="audience" value="gold"> Gold Membership - $999/year</label>
+            <label><input id="datefield" type="hidden" name="date"></label>
+          </div>
+
+          <div id="member-info">
+            <h2>Tiers of Membership</h2>
+            <br>
+            <h3>Non-Profit Membership - $0/year</h3>
+            <p>A Non-Profit organization can join for free to be listed on in our directory at no charge.</p>
+            <h3>Bronze Membership - $249/year</h3>
+            <p>Bronze Members receive non-profit benefits and can sign up to set up booths at chamber events.</p>
+            <h3>Silver Membership - $499/year</h3>
+            <p>Silver Members receive bronze benefits and receive a 20% off Chamber advertisements costs.</p>
+            <h3>Gold Membership - $999/year</h3>
+            <p>Gold Members receive silver benefits and have a chance to be featured on the homepage spotlights.</p>
+          </div>
+
+        </fieldset>
+
+        <input class="submitBtn center" type="submit" value="Submit Your Application">
+
+      </form>
+
+    </main>
+    
+    <footer class="center">
+      <h2>&copy; XXXX - George Blanchard - Indiana </h2>
+      <h3>Chamber of Commerce - Davenport Indiana</h3>
+      <p id="modDate">Last modified XXXX</p>
+    </footer>
+  
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  color: #d41825;
+  font-family: Mochiy Pop P One, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 1.4em;
+}
+
+h4, h5, h6 {
+  font-size: 1.2em;
+}
+
+header, footer {
+  display: block;
+  background-color:#78d0dd;
+  padding: 15px;
+}
+
+p {
+  color: #0a1045;
+  font-family: Outfit, Calibri, sans-serif
+}
+
+main {
+  background-color: #dbb68f;
+  padding: 5px;
+}
+
+a {
+  color: #a409ca;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  border: 1px solid;
+  padding: 5px;
+}
+
+button {
+  font-size: 1.4em;
+}
+
+.center {
+  
+  text-align: center;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+.persona {
+  margin-bottom: 30px;
+}
+
+.cards section {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid #a409ca;
+  background-color: #d6eeff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+
+#banner {
+  display: none;
+}
+
+#call-to-action {
+  margin: 10px auto;
+  position: relative;
+}
+
+#call-to-action h2 {
+  
+  /*color: #eeff58;*/
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#call-to-action button {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+}
+
+
+/*
+#logo-header {
+  display: grid;
+  grid-template-columns: 35% auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+*/
+
+#logo-header {
+  display: grid;
+  grid-template-columns: 25% auto;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+#date-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social img {
+  max-width: 25%;
+}
+
+#join {
+  display: none;
+}
+
+#spotlight3 {
+  display: none;
+}
+
+/*hamburger*/
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button {
+  
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  
+  background-color:#eee;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0,0,0,.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* Form */
+
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #a409ca;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #a409ca;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #d41825;
+  font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #d41825;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 95%;
+}
+
+form label.top input:required {
+  border-left: #d41825 solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+#textarea {
+  width: 20rem;
+}
+
+form h3 {
+  font-size: 1.2em;
+}

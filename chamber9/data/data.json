@@ -1,0 +1,67 @@
+{
+  "businesses": [
+    {
+      "name": "Cletus' Cockroach Cillers",
+      "address": "404 Leedle Lane",
+      "phone": "2605550111",
+      "website":"https://www.CletusMurdersBugs.com/",
+      "image":"images/directory/ccc.png"
+    },
+    {
+      "name": "Used & Abused Car Emporium",
+      "address": "22 Hartford Road",
+      "phone": "2605550167",
+      "website":"https://www.used-abused-cars.com/",
+      "image":"images/directory/used-and-abused.png"
+    },
+    {
+      "name": "Mary's Rent & Repo",
+      "address": "9629 Wentworth Street",
+      "phone": "2605550133",
+      "website":"https://www.marysrepo.com/",
+      "image":"images/directory/marys-rent-repo.png"
+    },
+    {
+      "name": "Holding Hands Co-Op",
+      "address": "84 Gates Drive",
+      "phone": "2605550162",
+      "website":"https://www.holding-hands.org/davenport-in/",
+      "image":"images/directory/holding-hands.png"
+    },
+    {
+      "name": "",
+      "address": "80 S. Birch Hill Court",
+      "phone": "2605550135",
+      "website":"https://www..com/",
+      "image":"images/directory/.png"
+    },
+    {
+      "name": "",
+      "address": "41 Vernon Avenue",
+      "phone": "2605550194",
+      "website":"https://www..com/",
+      "image":"images/directory/.png"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "2605550104",
+      "website":"https://www..com/",
+      "image":"images/directory/.png"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "2605550182",
+      "website":"https://www..com/",
+      "image":"images/directory/.png"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "website":"https://www..com/",
+      "image":"images/directory/.png"
+    }
+  ]
+}
