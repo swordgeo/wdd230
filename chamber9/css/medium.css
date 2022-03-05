@@ -83,12 +83,13 @@
     width: 90%;
   }
 
+  /*Directory*/
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-
+  
 
 
 

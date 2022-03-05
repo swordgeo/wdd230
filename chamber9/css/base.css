@@ -56,8 +56,16 @@ button {
 .persona {
   margin-bottom: 30px;
 }
+.cards {
+  display: block;
+}
+
+.cards.open, .table.open, #banner, #join, #spotlight3{
+  display: none;
+}
 
 .cards section {
+  display: block;
   margin: 5px;
   padding: 5px;
   border: 3px solid #a409ca;
@@ -65,11 +73,11 @@ button {
   border-radius: 20px 20px 20px 20px;
 }
 
-
-
-#banner {
-  display: none;
+.table {
+  list-style-type: none;
 }
+
+
 
 #call-to-action {
   margin: 10px auto;
@@ -91,16 +99,6 @@ button {
   right: 35px;
 }
 
-
-/*
-#logo-header {
-  display: grid;
-  grid-template-columns: 35% auto;
-  align-items: center;
-  grid-gap: 10px;
-}
-*/
-
 #logo-header {
   display: grid;
   grid-template-columns: 25% auto;
@@ -115,14 +113,6 @@ button {
 
 #social img {
   max-width: 25%;
-}
-
-#join {
-  display: none;
-}
-
-#spotlight3 {
-  display: none;
 }
 
 /*hamburger*/
@@ -143,9 +133,7 @@ nav button {
 }
 
 nav {
-  
   background-color:#eee;
-
 }
 
 nav ul {
@@ -222,8 +210,6 @@ form label.sbs {
   color: #555;
 }
 
-
-
 form input.submitBtn {
   border: none;
   background-color: #d41825;
@@ -248,4 +234,16 @@ form label.top input:required:valid {
 
 form h3 {
   font-size: 1.2em;
+}
+
+.table li span, .table li a{
+  display: block;
+}
+
+.table li:nth-child(even) {
+	background-color: #E7FFED;
+}
+
+.table li:nth-child(odd) {
+	background-color: #E7F0ED;
 }
