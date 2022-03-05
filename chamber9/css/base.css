@@ -56,28 +56,6 @@ button {
 .persona {
   margin-bottom: 30px;
 }
-.cards {
-  display: block;
-}
-
-.cards.open, .table.open, #banner, #join, #spotlight3{
-  display: none;
-}
-
-.cards section {
-  display: block;
-  margin: 5px;
-  padding: 5px;
-  border: 3px solid #a409ca;
-  background-color: #d6eeff;
-  border-radius: 20px 20px 20px 20px;
-}
-
-.table {
-  list-style-type: none;
-}
-
-
 
 #call-to-action {
   margin: 10px auto;
@@ -234,6 +212,35 @@ form label.top input:required:valid {
 
 form h3 {
   font-size: 1.2em;
+}
+
+/*Directory*/
+
+.cards {
+  display: block;
+}
+
+.cards.open, .table.open, #banner, #join, #spotlight3{
+  display: none;
+}
+
+.cards section {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid #a409ca;
+  background-color: #d6eeff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.table {
+  list-style-type: none;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.table li {
+  padding: 10px;
 }
 
 .table li span, .table li a{
