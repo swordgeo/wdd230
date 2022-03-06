@@ -22,11 +22,11 @@
       "image":"images/directory/marys-rent-repo.png"
     },
     {
-      "name": "Holding Hands Co-Op",
-      "address": "84 Gates Drive",
-      "phone": "2605550162",
-      "website":"https://www.holding-hands.org/davenport-in/",
-      "image":"images/directory/holding-hands.png"
+      "name": "Clipper's Barber Shop",
+      "address": "1 North Sunnyslope Street",
+      "phone": "2195550130",
+      "website":"https://www.clippersdavenport.com/",
+      "image":"images/directory/clippers.webp"
     },
     {
       "name": "Hot Wings LLC",
@@ -60,15 +60,15 @@
       "name": "Tooth Fair Dentistry",
       "address": "953 4th Street",
       "phone": "2195550118",
-      "website":"https://www..com/",
-      "image":"images/directory/.webp"
+      "website":"https://www.toothfairy-dentist.com/",
+      "image":"images/directory/toothfairy.webp"
     },
     {
-      "name": "",
-      "address": "1 North Sunnyslope Street",
-      "phone": "2195550130",
-      "website":"https://www..com/",
-      "image":"images/directory/.webp"
+      "name": "Holding Hands Co-Op",
+      "address": "84 Gates Drive",
+      "phone": "2605550162",
+      "website":"https://www.holding-hands.org/davenport-in/",
+      "image":"images/directory/holding-hands.png"
     },
     {
       "name": "",
