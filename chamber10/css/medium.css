@@ -1,0 +1,97 @@
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+
+  /*index grid below*/
+  #home-grid {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #call-to-action h2 {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+  }
+  
+  #call-to-action button {
+    position: absolute;
+    bottom: 60px;
+    right: 35px;
+  }
+
+  #news-release {
+    order: 0;
+  }
+
+  #spotlights {
+    order: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #join {
+    display: block;
+    order: 2;
+  }
+
+  #event-weather {
+    order: 3;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+  /*index grid above*/
+
+    /* Discovery Page */
+
+  #discovery section {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  #discovery section h1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #discovery section p {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  #discovery section picture {
+    grid-row: 1/3;
+    grid-column: 2;
+    padding: 10px;
+  }
+
+  #discovery section picture img:hover {box-shadow: 0 0 50px #333;}
+
+
+
+  /* Form */
+
+
+  #applicant {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form label.top input, form label.top select {
+    width: 90%;
+  }
+
+  /*Directory*/
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+
+
+
+
+}
