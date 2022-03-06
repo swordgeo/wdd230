@@ -63,13 +63,11 @@ function displayListings(business) {
 
 
 
-
-
 const z = document.getElementById('listingsBtn');
-z.onclick = toggleDirectory('.listings', '.cards', );
+z.addEventListener('click', function(){toggleDirectory('.listings', '.cards')});
 
 const y = document.getElementById('cardsBtn');
-y.onclick = toggleDirectory('.cards', '.listings');
+y.addEventListener('click', function() {toggleDirectory('.cards', '.listings' )});
 
 function toggleDirectory(showing, hiding) {
   document.querySelector(showing).classList.remove("open");

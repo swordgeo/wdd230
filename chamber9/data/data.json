@@ -29,39 +29,60 @@
       "image":"images/directory/holding-hands.png"
     },
     {
-      "name": "",
+      "name": "Hot Wings LLC",
       "address": "80 S. Birch Hill Court",
       "phone": "2605550135",
-      "website":"https://www..com/",
-      "image":"images/directory/.png"
+      "website":"https://www.hotwingsrestaurant.com/",
+      "image":"images/directory/hot-wings.png"
     },
     {
-      "name": "",
+      "name": "Princess Primavera's Private Playhouse",
       "address": "41 Vernon Avenue",
       "phone": "2605550194",
-      "website":"https://www..com/",
-      "image":"images/directory/.png"
+      "website":"https://www.pppptheater.com/",
+      "image":"images/directory/pppp.webp"
     },
     {
-      "name": "",
-      "address": "",
+      "name": "Sugar Loaf Mountain",
+      "address": "8560 East Harvey Road",
       "phone": "2605550104",
-      "website":"https://www..com/",
-      "image":"images/directory/.png"
+      "website":"https://www.sugarloaffun.com/",
+      "image":"images/directory/sugar-loaf.webp"
     },
     {
-      "name": "",
-      "address": "",
+      "name": "Natural Indiana Growers",
+      "address": "350 Martin Luther King Boulevard",
       "phone": "2605550182",
-      "website":"https://www..com/",
-      "image":"images/directory/.png"
+      "website":"https://www.natural-indiana-farms.org/",
+      "image":"images/directory/natural-indiana-growers.webp"
     },
     {
       "name": "",
       "address": "",
       "phone": "",
       "website":"https://www..com/",
-      "image":"images/directory/.png"
+      "image":"images/directory/.webp"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "website":"https://www..com/",
+      "image":"images/directory/.webp"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "website":"https://www..com/",
+      "image":"images/directory/.webp"
+    },
+    {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "website":"https://www..com/",
+      "image":"images/directory/.webp"
     }
   ]
 }
