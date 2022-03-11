@@ -63,13 +63,9 @@
         </section>
         <section id="weather" class="center">
           <h3>Weather</h3>
-          <picture id="weather-picture">
-            <source media="(min-width: 60em)" srcset="images/index/weather-160.png">
-            <source media="(min-width: 32.5em)" srcset="images/index/weather-120.png">
-            <img src="images/index/weather-90.png" alt="Weather Image">
-          </picture>
-          <p>Currently: <span id="temp">10</span>&#176;F</p>
-          <p>Wind Speed: <span id="wspeed">30</span> mph</p>
+          <img src="" alt="leedle" id="weathericon">
+          <p>Currently: <span id="temp"></span>&#176;F</p>
+          <p>Wind Speed: <span id="wspeed"></span> mph</p>
           <p>Wind Chill: <span id="wchill"></span></p>
         </section>
         
@@ -116,7 +112,7 @@
   
   </div>
   <script src="js/script.js"></script>
-  <script src="js/windchill.js"></script>
+  <script defer src="js/windchill.js"></script>
 </body>
 
 </html>
