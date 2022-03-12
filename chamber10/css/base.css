@@ -58,7 +58,6 @@ button {
 }
 
 #call-to-action {
-  margin: 10px auto;
   position: relative;
 }
 
@@ -91,6 +90,10 @@ button {
 
 #social img {
   max-width: 25%;
+}
+
+#weathericon {
+  width: 40%;
 }
 
 /*hamburger*/

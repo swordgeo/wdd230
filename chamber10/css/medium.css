@@ -42,6 +42,10 @@
   }
   /*index grid above*/
 
+  #weathericon {
+    width: 60%;
+  }
+
     /* Discovery Page */
 
   #discovery section {
