@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Chamber of Commerce of Davenport, Indiana - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="George Blanchard">
+    <meta name="description" content="Home page of Chamber of Commerce - Davenport Indiana">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <div id="content">
+    <div id="banner">
+      <p class="center">&#129309; Come join us for the chamber meet and greet Wednesdays at 7:00 p.m.</p>
+    </div>
+    
+    <header  class="center">
+      <div id="logo-header">
+        <img src="images/davenport-logo.webp" alt="Davenport IN logo">
+        <h1 class="center">Chamber of Commerce of Davenport, Indiana</h1>
+      </div>
+      <div class="center" id="date-social">
+        <div id="date"></div>
+        <div id="social">
+          <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" ></a>
+          <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.png" alt="Twitter" ></a>
+        </div>
+      </div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join The Chamber</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li class="active"><a href="#">Contact Us</a></li>  
+        </ul>  
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="feedback"></div>
+
+      <form method="post">
+        <fieldset id="applicant">
+          <legend>Your Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Business Name*<input type="text" name="business" required></label>
+          
+           </fieldset>
+
+        <fieldset id="business">
+          <legend>Your Message</legend>
+          <div id="business-info">
+
+            <div>Are you a Chamber Member?</div>
+            <label class="sbs"><input type="radio" name="membership" value="yes" required> Yes</label>
+            <label class="sbs"><input type="radio" name="membership" value="no" required> No</label>
+            <label class="sbs"><input type="radio" name="membership" value="unsure" required> Not Sure</label>
+           
+
+           <label class="top" for="textarea">What questions do you have for the Davenport Chamber?</label>
+            <textarea id="textarea" name="textarea"></textarea>
+          </div>
+
+          <div id="member-info">
+            <h2>Contact Us</h2>
+            <br>
+            <p>Davenport Chamber of Commerce</p>
+            <p>343 East Chiffarobe Avenue</p>
+            <p>Davenport, IN 46556</p>
+            <a href="tel:2195550110">(219) 555-0110</a>
+
+          </div>
+
+
+
+
+        </fieldset>
+
+        <input class="submitBtn center" type="submit" value="Submit Your Application">
+
+      </form>
+
+    </main>
+    
+    <footer class="center">
+      <h2>&copy; XXXX - George Blanchard - Indiana </h2>
+      <h3>Chamber of Commerce - Davenport Indiana</h3>
+      <p id="modDate">Last modified XXXX</p>
+    </footer>
+  
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+
+</html>

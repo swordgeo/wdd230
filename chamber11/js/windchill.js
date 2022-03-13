@@ -3,7 +3,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=4926563&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
 
     const tempQ = document.querySelector('#temp');
     const weatherIcon = document.querySelector('#weathericon');
