@@ -43,13 +43,6 @@
       "image":"images/directory/pppp.webp"
     },
     {
-      "name": "Sugar Loaf Mountain",
-      "address": "8560 East Harvey Road",
-      "phone": "2605550104",
-      "website":"https://www.sugarloaffun.com/",
-      "image":"images/directory/sugar-loaf.webp"
-    },
-    {
       "name": "Natural Indiana Growers",
       "address": "350 Martin Luther King Boulevard",
       "phone": "2605550182",
@@ -64,6 +57,20 @@
       "image":"images/directory/toothfairy.webp"
     },
     {
+      "name": "Rosenberg Pawn Broker & Loans",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/financing/",
+      "image":"images/directory/rosenberg-loan.webp"
+    },
+    {
+      "name": "Rosenberg & Sons Law Office",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/divorce/",
+      "image":"images/directory/rosenberg-law.webp"
+    },
+    {
       "name": "Holding Hands Co-Op",
       "address": "84 Gates Drive",
       "phone": "2605550162",
@@ -71,18 +78,11 @@
       "image":"images/directory/holding-hands.png"
     },
     {
-      "name": "",
-      "address": "9920 Temple Street",
-      "phone": "2195550184",
-      "website":"https://www..com/",
-      "image":"images/directory/.webp"
-    },
-    {
-      "name": "",
-      "address": "9920 Temple Street",
-      "phone": "2195550141",
-      "website":"https://www..com/",
-      "image":"images/directory/.webp"
+      "name": "Sugar Loaf Mountain",
+      "address": "8560 East Harvey Road",
+      "phone": "2605550104",
+      "website":"https://www.sugarloaffun.com/",
+      "image":"images/directory/sugar-loaf.webp"
     }
   ]
 }
