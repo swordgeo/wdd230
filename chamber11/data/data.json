@@ -1,0 +1,88 @@
+{
+  "businesses": [
+    {
+      "name": "Cletus' Cockroach Cillers",
+      "address": "404 Leedle Lane",
+      "phone": "2605550111",
+      "website":"https://www.CletusMurdersBugs.com/",
+      "image":"images/directory/ccc.png"
+    },
+    {
+      "name": "Used & Abused Car Emporium",
+      "address": "22 Hartford Road",
+      "phone": "2605550167",
+      "website":"https://www.used-abused-cars.com/",
+      "image":"images/directory/used-and-abused.png"
+    },
+    {
+      "name": "Mary's Rent & Repo",
+      "address": "9629 Wentworth Street",
+      "phone": "2605550133",
+      "website":"https://www.marysrepo.com/",
+      "image":"images/directory/marys-rent-repo.png"
+    },
+    {
+      "name": "Clipper's Barber Shop",
+      "address": "1 North Sunnyslope Street",
+      "phone": "2195550130",
+      "website":"https://www.clippersdavenport.com/",
+      "image":"images/directory/clippers.webp"
+    },
+    {
+      "name": "Hot Wings LLC",
+      "address": "80 S. Birch Hill Court",
+      "phone": "2605550135",
+      "website":"https://www.hotwingsrestaurant.com/",
+      "image":"images/directory/hot-wings.png"
+    },
+    {
+      "name": "Princess Primavera's Private Playhouse",
+      "address": "41 Vernon Avenue",
+      "phone": "2605550194",
+      "website":"https://www.pppptheater.com/",
+      "image":"images/directory/pppp.webp"
+    },
+    {
+      "name": "Natural Indiana Growers",
+      "address": "350 Martin Luther King Boulevard",
+      "phone": "2605550182",
+      "website":"https://www.nigrowers.org/",
+      "image":"images/directory/natural-indiana-growers.webp"
+    },
+    {
+      "name": "Tooth Fair Dentistry",
+      "address": "953 4th Street",
+      "phone": "2195550118",
+      "website":"https://www.toothfairy-dentist.com/",
+      "image":"images/directory/toothfairy.webp"
+    },
+    {
+      "name": "Rosenberg Pawn Broker & Loans",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/financing/",
+      "image":"images/directory/rosenberg-loan.webp"
+    },
+    {
+      "name": "Rosenberg & Sons Law Office",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/divorce/",
+      "image":"images/directory/rosenberg-law.webp"
+    },
+    {
+      "name": "Holding Hands Co-Op",
+      "address": "84 Gates Drive",
+      "phone": "2605550162",
+      "website":"https://www.holding-hands.org/davenport-in/",
+      "image":"images/directory/holding-hands.png"
+    },
+    {
+      "name": "Sugar Loaf Mountain",
+      "address": "8560 East Harvey Road",
+      "phone": "2605550104",
+      "website":"https://www.sugarloaffun.com/",
+      "image":"images/directory/sugar-loaf.webp"
+    }
+  ]
+}
