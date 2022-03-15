@@ -4,6 +4,10 @@ fetch(requestURL).then(function (response) {return response.json();})
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const businesses = jsonObject['businesses'];
+    
+    let holder = document.createElement('ul');
+    document.querySelector('.listings').appendChild(holder);
+
     businesses.forEach(displayCards);
     businesses.forEach(displayListings);
   });
@@ -37,6 +41,7 @@ function displayCards(business) {
 }
 
 function displayListings(business) {
+  
   let listing = document.createElement('li');
   let name = document.createElement('span');
   let address = document.createElement('span');
@@ -55,7 +60,7 @@ function displayListings(business) {
   listing.appendChild(phone);
   listing.appendChild(address);
   listing.appendChild(link);
-  document.querySelector('.listings').appendChild(listing);
+  document.querySelector('.listings ul').appendChild(listing);
 }
 
 
