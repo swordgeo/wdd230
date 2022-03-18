@@ -2,7 +2,7 @@ const requestURL = 'data/data.json';
 
 fetch(requestURL).then(function (response) {return response.json();})
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const businesses = jsonObject['businesses'];
     
     let holder = document.createElement('ul');

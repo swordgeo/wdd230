@@ -5,7 +5,7 @@
       "address": "404 Leedle Lane",
       "phone": "2605550111",
       "website":"https://www.CletusMurdersBugs.com/",
-      "image":"images/directory/ccc.png",
+      "image":"images/directory/ccc.webp",
       "membership":"gold",
       "message":"We don't know grammar but we know pest removal! Give us a call and you'll \"C\" the difference!"
     },
@@ -14,7 +14,7 @@
       "address": "22 Hartford Road",
       "phone": "2605550167",
       "website":"https://www.used-abused-cars.com/",
-      "image":"images/directory/used-and-abused.png",
+      "image":"images/directory/used-and-abused.webp",
       "membership":"silver",
       "message":"Used today, lemon tomorrow! Cheapest prices in Indiana guaranteed!"
     },
@@ -23,7 +23,7 @@
       "address": "9629 Wentworth Street",
       "phone": "2605550133",
       "website":"https://www.marysrepo.com/",
-      "image":"images/directory/marys-rent-repo.png",
+      "image":"images/directory/marys-rent-repo.webp",
       "membership":"gold",
       "message":"If you know someone's not making their payments, their loss can be your gain!"
     },
@@ -41,7 +41,7 @@
       "address": "80 S. Birch Hill Court",
       "phone": "2605550135",
       "website":"https://www.hotwingsrestaurant.com/",
-      "image":"images/directory/hot-wings.png",
+      "image":"images/directory/hot-wings.webp",
       "membership":"gold",
       "message":"Our chicken's so greasy it should be a crime!"
     },
@@ -95,7 +95,7 @@
       "address": "84 Gates Drive",
       "phone": "2605550162",
       "website":"https://www.holding-hands.org/davenport-in/",
-      "image":"images/directory/holding-hands.png",
+      "image":"images/directory/holding-hands.webp",
       "membership":"np",
       "message":"Every hand counts twice."
     },
