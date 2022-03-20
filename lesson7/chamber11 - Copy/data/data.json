@@ -1,0 +1,112 @@
+{
+  "businesses": [
+    {
+      "name": "Cletus' Cockroach Cillers",
+      "address": "404 Leedle Lane",
+      "phone": "2605550111",
+      "website":"https://www.CletusMurdersBugs.com/",
+      "image":"images/directory/ccc.webp",
+      "membership":"gold",
+      "message":"We don't know grammar but we know pest removal! Give us a call and you'll \"C\" the difference!"
+    },
+    {
+      "name": "Used & Abused Car Emporium",
+      "address": "22 Hartford Road",
+      "phone": "2605550167",
+      "website":"https://www.used-abused-cars.com/",
+      "image":"images/directory/used-and-abused.webp",
+      "membership":"silver",
+      "message":"Used today, lemon tomorrow! Cheapest prices in Indiana guaranteed!"
+    },
+    {
+      "name": "Mary's Rent & Repo",
+      "address": "9629 Wentworth Street",
+      "phone": "2605550133",
+      "website":"https://www.marysrepo.com/",
+      "image":"images/directory/marys-rent-repo.webp",
+      "membership":"gold",
+      "message":"If you know someone's not making their payments, their loss can be your gain!"
+    },
+    {
+      "name": "Clipper's Barber Shop",
+      "address": "1 North Sunnyslope Street",
+      "phone": "2195550130",
+      "website":"https://www.clippersdavenport.com/",
+      "image":"images/directory/clippers.webp",
+      "membership":"silver",
+      "message":"Your Style = Our Pleasure"
+    },
+    {
+      "name": "Hot Wings LLC",
+      "address": "80 S. Birch Hill Court",
+      "phone": "2605550135",
+      "website":"https://www.hotwingsrestaurant.com/",
+      "image":"images/directory/hot-wings.webp",
+      "membership":"gold",
+      "message":"Our chicken's so greasy it should be a crime!"
+    },
+    {
+      "name": "Princess Primavera's Private Playhouse",
+      "address": "41 Vernon Avenue",
+      "phone": "2605550194",
+      "website":"https://www.pppptheater.com/",
+      "image":"images/directory/pppp.webp",
+      "membership":"bronze",
+      "message":"The spotlight is always on, the curtain is never called, and the show never stops!"
+    },
+    {
+      "name": "Natural Indiana Growers",
+      "address": "350 Martin Luther King Boulevard",
+      "phone": "2605550182",
+      "website":"https://www.ni-growers.org/",
+      "image":"images/directory/natural-indiana-growers.webp",
+      "membership":"silver",
+      "message":"Organic produce at GMO prices."
+    },
+    {
+      "name": "Tooth Fair Dentistry",
+      "address": "953 4th Street",
+      "phone": "2195550118",
+      "website":"https://www.toothfairy-dentist.com/",
+      "image":"images/directory/toothfairy.webp",
+      "membership":"silver",
+      "message":"You don't have to wait for bedtime to visit a Tooth Fairy!"
+    },
+    {
+      "name": "Rosenberg Pawn Broker & Loans",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/financing/",
+      "image":"images/directory/rosenberg-loan.webp",
+      "membership":"bronze",
+      "message":"Best prices on wedding rings - buying OR selling!"
+    },
+    {
+      "name": "Rosenberg & Sons Law Office",
+      "address": "9920 Temple Street",
+      "phone": "2195550184",
+      "website":"https://www.edwrosenberg.is/divorce/",
+      "image":"images/directory/rosenberg-law.webp",
+      "membership":"gold",
+      "message":"Don't let her take it all - Give US a call!"
+    },
+    {
+      "name": "Holding Hands Co-Op",
+      "address": "84 Gates Drive",
+      "phone": "2605550162",
+      "website":"https://www.holding-hands.org/davenport-in/",
+      "image":"images/directory/holding-hands.webp",
+      "membership":"np",
+      "message":"Every hand counts twice."
+    },
+    {
+      "name": "Sugar Loaf Mountain",
+      "address": "8560 East Harvey Road",
+      "phone": "2605550104",
+      "website":"https://www.sugarloaffun.com/",
+      "image":"images/directory/sugar-loaf.webp",
+      "membership":"bronze",
+      "message":"Deathly displays of diabetes and danger!"
+    }
+  ]
+}
