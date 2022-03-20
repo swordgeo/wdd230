@@ -17,7 +17,6 @@
     grid-row: 1/4;
   }
 
-  
   #date {
     grid-column: 1/11;
   }
@@ -42,8 +41,6 @@
   section {
     padding: 5px;
   }
-
-
 
   .cards {
     display: grid;
@@ -89,11 +86,9 @@
   }
 
   #spotlight3 {
-    
     grid-column: 3;
     grid-row: 3;
     display: block;
-   
   }
 
   #join {
