@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
-  color: #da6517;
+  color: #d41825;
   font-family: Mochiy Pop P One, Arial, sans-serif;
   letter-spacing: 1px;
   margin-bottom: 0px;
@@ -13,7 +13,7 @@ h4, h5, h6 {
 }
 
 header, footer {
-  background-color:#78d0dd;
+  background-color:#7bd3e0;
   padding: 15px;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 main {
-  background-color: #2ee084;
+  background-color: #ffebc2;
   padding: 5px;
 }
 
