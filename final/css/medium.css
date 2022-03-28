@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  nav ul li{
+    flex-grow: 0.5;
+  }
+
+
+  nav ul li a {
+    border-top: none;
+    
+    
+    
+    
+  
+  }
+
+  nav button {display: none;}
+
+
+
+
+
+
+}

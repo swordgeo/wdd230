@@ -1,0 +1,50 @@
+{
+  "temples": [
+    {
+      "name": "Indianapolis Indiana Temple",
+      "address": ["11565 Temple Dr" , "Carmel IN 46032-8859"],
+      "phone": "3179933800",
+      "website":"",
+      "image":"images/indianapolis-indiana-temple.jpeg",
+      "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
+      "ordSchedule": "Temple Closed",
+      "sessSchedule": "Temple Closed",
+      "closeSchedule": ["Saturday, 2 April 2022", "Monday, 11 July 2022 - Monday, 5 September 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
+    },
+    {
+      "name": "Detroit Michigan Temple",
+      "address": ["37425 Woodward Ave" , "Bloomfield Hills MI 48304"],
+      "phone": "2485930690",
+      "website":"",
+      "image":"",
+      "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
+      "ordSchedule": "Temple Closed",
+      "sessSchedule": "Temple Closed",
+      "closeSchedule": ["Saturday, 2 April 2022", "Sunday, 10 April 2022 - Sunday, 24 April 2022", "Saturday, 20 August 2022", "Saturday, 1 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
+    },
+    {
+      "name": "Chicago Illinois Temple",
+      "address": ["4151 W Lake Ave" , "Glenview IL 60025-1240"],
+      "phone": "8472996500",
+      "website":"",
+      "image":"",
+      "services": ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+      "ordSchedule": "Temple Closed",
+      "sessSchedule": "Temple Closed",
+      "closeSchedule": ["Saturday, 2 April 2022", "Monday, 29 August 2022 - Monday, 12 September 2022", "Saturday, 1 October 2022", "Thursday, 24 November 2022 - Friday, 25 November 2022", "Saturday, 24 December 2022 (Limited Operations)", "Saturday, 31 December 2022 (Limited Operations)"]
+    },
+    {
+      "name": "Louisville Kentucky Temple",
+      "address": ["7116 West Hwy 22" , "Crestwood KY 40014-9069"],
+      "phone": "5022414115",
+      "website":"",
+      "image":"",
+      "services": ["No clothing rental available", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
+      "ordSchedule": "Temple Closed",
+      "sessSchedule": "Temple Closed",
+      "closeSchedule": ["Saturday, 2 April 2022", "Monday, 11 April 2022 - Monday, 25 April 2022", "Saturday, 1 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
+    }
+ 
+
+  ]
+}
