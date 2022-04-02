@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
 
+h1, h2, h3, h4, h5, h6 {
+  color: #d41825;
+  font-family: Mochiy Pop P One, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  font-size: 1.4em;
+}
 
+h4, h5, h6 {
+  font-size: 1.2em;
+}
 
+p {
+  color: #0a1045;
+  font-family: Outfit, Calibri, sans-serif
+}
 
 header, footer {
   display: block;
@@ -8,11 +23,61 @@ header, footer {
   padding: 15px;
 }
 
+main {
+  background-color: #ffebc2;
+  padding: 5px;
+}
+
+a {
+  color: #a409ca;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  border: 1px solid;
+  padding: 5px;
+}
+
+button {
+  font-size: 1.4em;
+}
+
 .center {
   
   text-align: center;
   justify-content: center;
   /*align-items: center;*/
+}
+
+.persona {
+  margin-bottom: 30px;
+}
+
+#call-to-action {
+  background-image: url("../images/index/suite-small.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+  height: 250px;
+}
+
+#call-to-action h1 {
+  
+  /*color: #eeff58;
+  position: absolute;
+  top: 60px;
+  left: 60px;*/
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#call-to-action button {
+  position: absolute;
+  bottom: 25px;
 }
 
 #logo:hover {
@@ -27,8 +92,6 @@ filter: drop-shadow(5px 2px 2px #0B0B0B);
 }
 */
 
-
-
 /*hamburger*/
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -36,6 +99,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 
 nav button {
   
