@@ -24,8 +24,10 @@
   nav button {display: none;}
 
 
-
-
+  iframe {
+    width: 450px;
+    height: 350px;
+  }
 
 
 }

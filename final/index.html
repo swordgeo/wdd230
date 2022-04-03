@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="George Blanchard">
     <meta name="description" content="Home page for Temple Inn & Suites">
-    <link rel="shortcut icon" href="favicon.ico">
+    <!--Keep '?v=1' with favicon - helps it work for reasons I don't understand-->
+    <link rel="shortcut icon" href="favicon.ico?v=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -28,19 +29,16 @@
     <header  class="center">
       <a id="logo" href="index.html"><img src="images/logo.webp" alt="Temple Inn & Suites logo"></a>
       
-      
       <nav>
         <button id="hamburgerBtn"><span>&#9776; Menu</span><span>X Menu</span></button>
         <ul id="primaryNav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="reservation.html">Discover</a></li>
-          <li><a href="services.html">Join</a></li>
-          <li><a href="temples.html">Directory</a></li>  
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="services.html">Guest Services</a></li>
+          <li><a href="temples.html">Temples</a></li>
         </ul>  
       </nav>
     </header>
-
-
 
     <main>  
 
@@ -50,6 +48,15 @@
           Book Your Reservation</button>
 
       </section>
+
+      <section>
+        <h2 class="center">Worship Without Worry</h2>
+        <p class="left"><em>"The temple is a point of intersection between heaven and earth. In this sacred place, holy work will be performed through selfless service and love. The temple reminds me of all that is good and beautiful in the world." </em></p>
+        <p class="right"><em>~ David A. Bednar</em></p>
+        <p>The temples of the Church are magnificient, beautiful buildings sanctified by our Heavenly Father to provide essential ordinances to church members and their families. Unfortunately, many find it difficult to travel the great distance to temples that in some parts of the world are few and far between.</p>
+        <p>The vision of Temple Inn & Suites is to provide the best possible accommodations for the most reasonable prices - whether your goal is to spend a day to perform sealings and baptisms, or even to stay for several months as a Temple Worker. We do this by being conveniently placed closeby temple grounds to provide a short commute. </p>
+      </section>
+
       <div class="center">
         <h2> Temple of the Month</h2>
         <br>
@@ -63,20 +70,50 @@
         <button  onclick="location.href='temples.html'" type="button" >
           More Temples</button>
       </div>
+
+      <aside>
+        <h2>Featured Services</h2>
+        <div id="slide-holder">
+          
+          <div class="slide fade">
+            <picture>
+              <img src="images/services/lazy-playroom.webp" data-src="images/services/playroom.webp" alt="Temple Inn & Suites Playroom">
+            </picture>
+            <p>Our playroom provides safe fun to the children of patrons, as well as low-cost, short-term babysitting services.</p>
+            <button  onclick="location.href='services.html'" type="button" >
+              Learn More</button>
+          </div>
+          <div class="slide fade">
+            <picture>
+              <img src="images/services/lazy-wedding.webp" data-src="images/services/wedding.webp" alt="Temple Inn & Suites Wedding Reception Hall">
+            </picture>
+            <p>Our wedding reception hall can be easily customized with a simple catering menu and kitchen access for food preparation and serving.</p>
+            <button  onclick="location.href='services.html'" type="button" >
+              Learn More</button>
+          </div>
+          <div class="slide fade"> 
+            <picture>
+              <img src="images/services/lazy-computer-lab.webp" data-src="images/services/computer-lab.webp" alt="Temple Inn & Suites Computer Lab">
+            </picture>
+            <p>Our family search center boasts high-speed internet access that supports family search and ordinance work. In the rooms you can also benefit from high-speed WiFi and smart TVs.</p>
+            <button  onclick="location.href='services.html'" type="button" >
+              Learn More</button>
+          </div>
+        </div>
+        <div>
+          <span class="dot" onclick="showSlide(index=1)"></span>
+          <span class="dot" onclick="showSlide(index=2)"></span>
+          <span class="dot" onclick="showSlide(index=3)"></span>
+        </div>
+        <!--https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+
+      </aside>
+
       <section id="bethesda" class="center">
         <h3>Bethesda, MD</h3>
-
-
-        <!--
-        <img src="images/index/weather-90.png" id="weathericon" alt="weather status">
-        <p id="weather-cond"></p>
-        <p>Currently: <span id="temp"></span>&#176;F</p>
-        <p>Wind Speed: <span id="wspeed"></span> mph</p>
-        <p>Wind Chill: <span id="wchill"></span></p>
-        -->
       </section>
       <section id="forecast" class="center">
-        
+        <h3>Three Day Forecast</h3> 
       </section>
       <!--
       -  A call to action to make a hotel reservation
@@ -98,19 +135,28 @@
       <p id="modDate">Last Updated XX</p>
 
       <div id="social">
+        <a href="contact.html">Contact Us</a>
+        <a href="resources.html">Resources</a>
         <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook" ></a>
         <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.webp" alt="Twitter" ></a>
       </div>
-      <a href="contact.html">Contact Us</a>
+      <br>
       
       <!--Credit OpenWeatherMap-->
 
       <!--Each page should have a footer that contains contact information including a link to a Google map (Links to an external site.) showing the company headquarter address at 4800 Montgomery Ln #300, Bethesda, MD 20814 . Additional items might include social media links (again), a basic Contact Us form, and/or other relevant material. -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405018805796!2d-77.0955318!3d38.983251800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1648673908121!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.0116041060573!2d-77.09587491385709!3d38.983290411852494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2sus!4v1648914249024!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!--
+        Figure out why the console is freaking out 
+        API something-or-other
+        net::ERR_BLOCKED_BY_CLIENT
+      -->
     </footer>
   
   </div>
   <script src="js/burgers.js"></script>
+  <script src="js/slides.js"></script>
+  <script defer src="js/lazy.js"></script>
   <script defer src="js/weather.js"></script>
   
 </body>

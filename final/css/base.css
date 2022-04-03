@@ -6,10 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin-bottom: 0px;
   font-size: 1.4em;
-  
+
 }
 
-h4, h5, h6 {
+h3, h4, h5, h6 {
   font-size: 1.2em;
 }
 
@@ -37,7 +37,7 @@ img {
   max-width: 100%;
 }
 
-section {
+section, div, aside {
   border: 1px solid;
   padding: 5px;
 }
@@ -46,11 +46,21 @@ button {
   font-size: 1.4em;
 }
 
+iframe {
+  width: 350px;
+  height: 250px;
+}
+
 .center {
   
   text-align: center;
   justify-content: center;
-  /*align-items: center;*/
+}
+
+.right {
+  
+  text-align: right;
+  justify-content: right;
 }
 
 .persona {
@@ -100,8 +110,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
 
 nav button {
   
@@ -175,3 +183,20 @@ nav ul.open {display: block;}
 
 /*end alert div*/
 
+/*index slides*/
+
+
+.slide {display: none;}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*end index slides*/
