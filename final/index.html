@@ -18,10 +18,10 @@
 <body>
   <div id="content">
 
-    <div class="alert">
+    <aside class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
       <p class="alert-holder">You shouldn't be seeing this</p>
-    </div>
+    </aside>
     <!--
       -  Weather alerts if available/applicable from the government and display it as a closeable message at the top of the page. Closeable means the user can click to remove the alert.
     -->
@@ -40,97 +40,93 @@
       </nav>
     </header>
 
-    <main>  
 
+    <main>  
       <section id="call-to-action" class="center">
         <h1 class="center">Temple Inn & Suites</h1>
         <button  onclick="location.href='reservation.html'" type="button" >
           Book Your Reservation</button>
-
       </section>
 
-      <section>
-        <h2 class="center">Worship Without Worry</h2>
-        <p class="left"><em>"The temple is a point of intersection between heaven and earth. In this sacred place, holy work will be performed through selfless service and love. The temple reminds me of all that is good and beautiful in the world." </em></p>
-        <p class="right"><em>~ David A. Bednar</em></p>
-        <p>The temples of the Church are magnificient, beautiful buildings sanctified by our Heavenly Father to provide essential ordinances to church members and their families. Unfortunately, many find it difficult to travel the great distance to temples that in some parts of the world are few and far between.</p>
-        <p>The vision of Temple Inn & Suites is to provide the best possible accommodations for the most reasonable prices - whether your goal is to spend a day to perform sealings and baptisms, or even to stay for several months as a Temple Worker. We do this by being conveniently placed closeby temple grounds to provide a short commute. </p>
-      </section>
+      <div class="home-grid">
+        <section class="intro">
+          <h2 class="center">Worship Without Worry</h2>
+          <p class="left"><em>"The temple is a point of intersection between heaven and earth. In this sacred place, holy work will be performed through selfless service and love. The temple reminds me of all that is good and beautiful in the world." </em></p>
+          <p class="right"><em>~ David A. Bednar</em></p>
+          <p>The temples of the Church are magnificient, beautiful buildings sanctified by our Heavenly Father to provide essential ordinances to church members and their families. Unfortunately, many find it difficult to travel the great distance to temples that in some parts of the world are few and far between.</p>
+          <p>The vision of Temple Inn & Suites is to provide the best possible accommodations for the most reasonable prices - whether your goal is to spend a day to perform sealings and baptisms, or even to stay for several months as a Temple Worker. We do this by being conveniently placed closeby temple grounds to provide a short commute. </p>
+        </section>
 
-      <div class="center">
-        <h2> Temple of the Month</h2>
-        <br>
-        <picture>
-          <source media="(min-width: 60em)" srcset="images/index/urban-davenport-large.webp">
-          <source media="(min-width: 32.5em)" srcset="images/temples/indianapolis_temple.webp">
-          <img src="images/temples/indianapolis_temple.webp" alt="Urban Davenport">
-        </picture>
-        <h3>Indianapolis Indiana Temple</h3>
-        <p>The Indianapolis Indiana Temple is the 148th operating temple of The Church of Jesus Christ of Latter-day Saints worldwide and the first in Indiana, dedicated unto the Lord on August 23, 2015 over three sessions by Henry B. Eyring, at the time First Counselor in the First Presidency of Thomas S. Monson.</p>
-        <button  onclick="location.href='temples.html'" type="button" >
-          More Temples</button>
+        <section class="center">
+          <h2> Temple of the Month</h2>
+          <br>
+          <picture>
+            <img src="images\temples\lazy_indianapolis_temple.webp" data-src="images\temples\indianapolis_temple.webp" alt="Indianapolis Indiana Temple">
+          </picture>
+          <h3>Indianapolis Indiana Temple</h3>
+          <p>The Indianapolis Indiana Temple is the 148th operating temple of The Church of Jesus Christ of Latter-day Saints worldwide and the first in Indiana, dedicated unto the Lord on August 23, 2015 over three sessions by Henry B. Eyring, at the time First Counselor in the First Presidency of Thomas S. Monson.</p>
+          <button  onclick="location.href='temples.html'" type="button" >
+            More Temples</button>
+          </section>
+
+        <aside  class="center">
+          <h2>Featured Services</h2>
+          <div id="slide-holder">
+            <div class="slide fade">
+              <picture>
+                <img src="images/services/lazy-playroom.webp" data-src="images/services/playroom.webp" alt="Temple Inn & Suites Playroom">
+              </picture>
+              <p>Our playroom provides safe fun to the children of patrons, as well as low-cost, short-term babysitting services.</p>
+              <button  onclick="location.href='services.html'" type="button" >
+                Learn More</button>
+            </div>
+            <div class="slide fade">
+              <picture>
+                <img src="images/services/lazy-wedding.webp" data-src="images/services/wedding.webp" alt="Temple Inn & Suites Wedding Reception Hall">
+              </picture>
+              <p>Our wedding reception hall can be easily customized with a simple catering menu and kitchen access for food preparation and serving.</p>
+              <button  onclick="location.href='services.html'" type="button" >
+                Learn More</button>
+            </div>
+            <div class="slide fade"> 
+              <picture>
+                <img src="images/services/lazy-computer-lab.webp" data-src="images/services/computer-lab.webp" alt="Temple Inn & Suites Computer Lab">
+              </picture>
+              <p>Our family search center boasts high-speed internet access that supports family search and ordinance work. In the rooms you can also benefit from high-speed WiFi and smart TVs.</p>
+              <button  onclick="location.href='services.html'" type="button" >
+                Learn More</button>
+            </div>
+          </div>
+
+          <div>
+            <span class="dot" onclick="showSlide(index=1)"></span>
+            <span class="dot" onclick="showSlide(index=2)"></span>
+            <span class="dot" onclick="showSlide(index=3)"></span>
+          </div>
+        </aside>
+        <div class="weather">
+          <section id="bethesda" class="center">
+            <h3>Bethesda, MD</h3>
+          </section>
+          <section id="forecast" class="center">
+            <h3>Three Day Forecast</h3>
+            <div id="three-day"></div>
+          </section>
+        </div>
       </div>
-
-      <aside>
-        <h2>Featured Services</h2>
-        <div id="slide-holder">
-          
-          <div class="slide fade">
-            <picture>
-              <img src="images/services/lazy-playroom.webp" data-src="images/services/playroom.webp" alt="Temple Inn & Suites Playroom">
-            </picture>
-            <p>Our playroom provides safe fun to the children of patrons, as well as low-cost, short-term babysitting services.</p>
-            <button  onclick="location.href='services.html'" type="button" >
-              Learn More</button>
-          </div>
-          <div class="slide fade">
-            <picture>
-              <img src="images/services/lazy-wedding.webp" data-src="images/services/wedding.webp" alt="Temple Inn & Suites Wedding Reception Hall">
-            </picture>
-            <p>Our wedding reception hall can be easily customized with a simple catering menu and kitchen access for food preparation and serving.</p>
-            <button  onclick="location.href='services.html'" type="button" >
-              Learn More</button>
-          </div>
-          <div class="slide fade"> 
-            <picture>
-              <img src="images/services/lazy-computer-lab.webp" data-src="images/services/computer-lab.webp" alt="Temple Inn & Suites Computer Lab">
-            </picture>
-            <p>Our family search center boasts high-speed internet access that supports family search and ordinance work. In the rooms you can also benefit from high-speed WiFi and smart TVs.</p>
-            <button  onclick="location.href='services.html'" type="button" >
-              Learn More</button>
-          </div>
-        </div>
-        <div>
-          <span class="dot" onclick="showSlide(index=1)"></span>
-          <span class="dot" onclick="showSlide(index=2)"></span>
-          <span class="dot" onclick="showSlide(index=3)"></span>
-        </div>
-        <!--https://www.w3schools.com/howto/howto_js_slideshow.asp-->
-
-      </aside>
-
-      <section id="bethesda" class="center">
-        <h3>Bethesda, MD</h3>
-      </section>
-      <section id="forecast" class="center">
-        <h3>Three Day Forecast</h3> 
-      </section>
-      <!--
-      -  A call to action to make a hotel reservation
-      -  contact information for the hotel chain
-      -  Summary information about a temple of your choosing
-
-
-      -  Current weather card that summarizes the conditions. You must use the One Call API at openweathermap.org (Links to an external site.) and include the following content.
-      -  The current temperature, current condition description, and humidity.
-
-      -  Display and label a three day forecast of the "day" temperature using the current date. This can be designed in another card or area.
-            -->
-
-
     </main>
     
+
     <footer class="center">
+      <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.0116041060573!2d-77.09587491385709!3d38.983290411852494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2sus!4v1648914249024!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!--
+        Figure out why the console is freaking out 
+        API something-or-other
+        net::ERR_BLOCKED_BY_CLIENT
+      -->
+
       <h2>&copy; XXXX - George Blanchard - Indiana </h2>
       <p id="modDate">Last Updated XX</p>
 
@@ -140,24 +136,15 @@
         <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook" ></a>
         <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.webp" alt="Twitter" ></a>
       </div>
-      <br>
-      
-      <!--Credit OpenWeatherMap-->
-
-      <!--Each page should have a footer that contains contact information including a link to a Google map (Links to an external site.) showing the company headquarter address at 4800 Montgomery Ln #300, Bethesda, MD 20814 . Additional items might include social media links (again), a basic Contact Us form, and/or other relevant material. -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.0116041060573!2d-77.09587491385709!3d38.983290411852494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2sus!4v1648914249024!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <!--
-        Figure out why the console is freaking out 
-        API something-or-other
-        net::ERR_BLOCKED_BY_CLIENT
-      -->
     </footer>
   
   </div>
   <script src="js/burgers.js"></script>
-  <script src="js/slides.js"></script>
+  <script defer src="js/slides.js"></script>
   <script defer src="js/lazy.js"></script>
-  <script defer src="js/weather.js"></script>
+  <script defer src="js/weather.js"></script>-->
+    <!--Keep off to avoid overusing API
+    Turn back on before pushing-->
   
 </body>
 

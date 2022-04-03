@@ -1,8 +1,17 @@
-@media (min-width: 60em) {
+@media (min-width: 52em) {
 
+
+
+
+
+  #three-day {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 
   iframe {
-    width: 600px;
+    width: 500px;
     height: 400px;
   }
 

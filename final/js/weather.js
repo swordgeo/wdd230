@@ -3,8 +3,7 @@
 //const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=4348599&units=imperial&appid=bcbf0301f80c70e9e8f4bca6cd28a33f';
 
 const bethesda = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9859581&lon=-77.1282094&units=imperial&exclude=hourly,minutely&appid=54773efc60fabf4176586b0daf4b409c';
-//It kicked me out 7:00pm Saturday
-//Hopefully it will work Sunday?
+//Turn back on before pushing
 
 
 fetch(bethesda)
@@ -14,10 +13,10 @@ fetch(bethesda)
 
     for (let day = 0; day < 3; day++) {
       // Runs 5 times, with values of step 0 through 4.
-      forecast('#forecast', jsObject, day);
+      forecast('#three-day', jsObject, day);
     }
 
-    weatherAlert(".alert", jsObject);
+    weatherAlert(jsObject, ".alert", ".alert-holder");
   });
 
 function currentWeather(HTMLtag, jsObject) {
@@ -88,8 +87,16 @@ function forecast(HTMLtag, jsObject, dayNum) {
     
 }
 
-function weatherAlert(HTMLtag, jsObject) {
-  if (jsObject.hasOwnProperty()) {}
+function weatherAlert(jsObject, HTMLtag, HTMLdesc) {
+   
+  if (("alerts" in jsObject)==false) {
+  }
+  else {
+    document.querySelector(HTMLtag).style.display = "block";
+    document.querySelector(HTMLdesc).textContent = jsObject.alerts.description;
+  
+  }
+  
 }
 
 /*

@@ -6,7 +6,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   margin-bottom: 0px;
   font-size: 1.4em;
-
 }
 
 h3, h4, h5, h6 {
@@ -37,8 +36,12 @@ img {
   max-width: 100%;
 }
 
-section, div, aside {
+section, aside {
   border: 1px solid;
+  padding: 5px;
+}
+
+div {
   padding: 5px;
 }
 
@@ -52,19 +55,13 @@ iframe {
 }
 
 .center {
-  
   text-align: center;
   justify-content: center;
 }
 
 .right {
-  
   text-align: right;
   justify-content: right;
-}
-
-.persona {
-  margin-bottom: 30px;
 }
 
 #call-to-action {
@@ -92,16 +89,16 @@ iframe {
 }
 
 #logo:hover {
-
 filter: drop-shadow(5px 2px 2px #fff);
 }
 
-/* 
-#siteLogo:hover {
-  -webkit-filter: drop-shadow(5px 2px 2px #0B0B0B);
-filter: drop-shadow(5px 2px 2px #0B0B0B);
+#social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
-*/
+
 
 /*hamburger*/
 
@@ -160,6 +157,7 @@ nav ul.open {display: block;}
 
 /*alert div*/
 .alert {
+  display: none;
   padding: 20px;
   background-color: #f44336; /* Red */
   color: white;
@@ -180,12 +178,10 @@ nav ul.open {display: block;}
 .closebtn:hover {
   color: black;
 }
-
 /*end alert div*/
 
+
 /*index slides*/
-
-
 .slide {display: none;}
 
 .dot {
