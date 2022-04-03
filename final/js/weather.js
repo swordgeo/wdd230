@@ -2,7 +2,7 @@
 
 //const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=4348599&units=imperial&appid=bcbf0301f80c70e9e8f4bca6cd28a33f';
 
-//const bethesda = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9859581&lon=-77.1282094&units=imperial&exclude=hourly,minutely&appid=54773efc60fabf4176586b0daf4b409c';
+const bethesda = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9859581&lon=-77.1282094&units=imperial&exclude=hourly,minutely&appid=54773efc60fabf4176586b0daf4b409c';
 //It kicked me out 7:00pm Saturday
 //Hopefully it will work Sunday?
 
