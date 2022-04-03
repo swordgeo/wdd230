@@ -2,12 +2,26 @@
 
 
 
+  #call-to-action {
+    background-image: url("../images/index/suite-large.webp");
+    height: 400px;
+    max-width: 100%;
+    background-attachment: fixed;
+  }
 
-
-  #three-day {
+  .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .intro, .weather {
+    grid-column: 1/3;
+  }
+
+  .weather {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+
   }
 
   iframe {

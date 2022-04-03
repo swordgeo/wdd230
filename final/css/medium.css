@@ -12,12 +12,10 @@
   #call-to-action {
     height: 400px;
     max-width: 800px;
-    margin: auto;
-  }
-
-  #call-to-action {
     background-image: url("../images/index/suite-medium.webp");
   }
+
+
 
   #three-day {
     display: grid;
@@ -25,9 +23,6 @@
     grid-template-rows: 1fr;
   }
   
-
-
-
 
 
   iframe {

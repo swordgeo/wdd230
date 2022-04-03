@@ -9,6 +9,7 @@ const bethesda = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9859581
 fetch(bethesda)
   .then((response) => response.json())
   .then((jsObject) => {
+    console.log(jsObject);
     currentWeather('#bethesda',jsObject);
 
     for (let day = 0; day < 3; day++) {
@@ -22,11 +23,13 @@ fetch(bethesda)
 function currentWeather(HTMLtag, jsObject) {
 
   let temp = document.createElement('p');
+  let speed = document.createElement('p');
   let weatherIcon = document.createElement('img');
   let weatherCond = document.createElement('p');
   let humidity = document.createElement('p');
 
   temp.innerHTML = `Temp: ${jsObject.current.temp.toFixed(1)}&#176;F`;
+  speed.innerHTML = `Wind Speed: ${jsObject.current.wind_speed} mph`;
   weatherCond.textContent = `Currently: ${capitalize(jsObject.current.weather[0].description)}`;
   humidity.innerHTML = `Humidity: ${jsObject.current.humidity}%`;
   let imgsrc = `https://api.openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
@@ -37,6 +40,7 @@ function currentWeather(HTMLtag, jsObject) {
   document.querySelector(HTMLtag).appendChild(weatherIcon);
   document.querySelector(HTMLtag).appendChild(weatherCond);
   document.querySelector(HTMLtag).appendChild(temp);
+  document.querySelector(HTMLtag).appendChild(speed);
   document.querySelector(HTMLtag).appendChild(humidity);
   function capitalize(sentence) {
     let words = sentence.split(" ");
@@ -48,14 +52,15 @@ function currentWeather(HTMLtag, jsObject) {
 }
 
 function forecast(HTMLtag, jsObject, dayNum) {
-  
-  console.log(jsObject);
   let day = jsObject.daily[dayNum];
+
   let card = document.createElement('div');
+  let wkDay = document.createElement('h4');
   let temp = document.createElement('p');
   let weatherIcon = document.createElement('img');
   let weatherCond = document.createElement('p');
-  let wkDay = document.createElement('h4');
+  
+
   temp.innerHTML = `Temp: ${day.temp.day.toFixed(1)}&#176;F`;
   weatherCond.textContent = `Currently: ${capitalize(day.weather[0].description)}`;
   wkDay.textContent = weekday(day.dt*1000);
@@ -69,6 +74,8 @@ function forecast(HTMLtag, jsObject, dayNum) {
   card.appendChild(weatherCond);
   card.appendChild(temp);
   document.querySelector(HTMLtag).appendChild(card);
+
+  //also doesn't need to be a function but we don't care
   function capitalize(sentence) {
     let words = sentence.split(" ");
     let caps = words.map( word => {
