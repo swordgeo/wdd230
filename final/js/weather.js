@@ -16,6 +16,8 @@ fetch(bethesda)
       // Runs 5 times, with values of step 0 through 4.
       forecast('#forecast', jsObject, day);
     }
+
+    weatherAlert(".alert", jsObject);
   });
 
 function currentWeather(HTMLtag, jsObject) {
@@ -84,6 +86,10 @@ function forecast(HTMLtag, jsObject, dayNum) {
     return day;
   }
     
+}
+
+function weatherAlert(HTMLtag, jsObject) {
+  if (jsObject.hasOwnProperty()) {}
 }
 
 /*
