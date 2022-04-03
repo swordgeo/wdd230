@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
   color: #0E6C48;
-  font-family: Mochiy Pop P One, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   letter-spacing: 1px;
   margin-bottom: 0px;
   font-size: 1.4em;
@@ -14,7 +14,7 @@ h3, h4, h5, h6 {
 
 p {
   color: #875315;
-  font-family: Outfit, Calibri, sans-serif
+  font-family: 'Open Sans', sans-serif;
 }
 
 header, footer {
@@ -29,7 +29,7 @@ main {
 }
 
 a {
-  color: #a409ca;
+  color: #9E09C3;
 }
 
 img {
@@ -118,7 +118,7 @@ nav button {
 }
 
 nav {
-  background-color:#eee;
+  background-color:#FFD700;
 }
 
 nav ul {
