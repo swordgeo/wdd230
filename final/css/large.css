@@ -29,4 +29,16 @@
     height: 400px;
   }
 
+  .cards section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards button {
+    display: none;
+  }
+  div.info {
+    display: block
+  }
+
 }

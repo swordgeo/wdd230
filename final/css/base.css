@@ -202,3 +202,14 @@ nav ul.open {display: block;}
 }
 
 /*end index slides*/
+
+/*temple directory*/
+
+div.info {display: none;}
+div.info.open {display: block;}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
