@@ -10,7 +10,6 @@ fetch(requestURL).then(function (response) {return response.json();})
     temples.forEach(displayCards);
   });
 
-
 function displayCards(temple) {
   let card = document.createElement('section');//
   let div1 = document.createElement('div');
@@ -56,8 +55,10 @@ function displayCards(temple) {
   closeHead.textContent = `Temple Closures`;
 
   button.classList.add("more");
-  
-  button.textContent = "Learn More"
+  button.textContent = "Learn More";
+  button.addEventListener("click", function() {
+    divToggle(button);
+  });
   div2.classList.add("info");
 
   div1.appendChild(heading);
@@ -77,9 +78,6 @@ function displayCards(temple) {
   div1.appendChild(button);
   card.appendChild(div1);
   card.appendChild(div2);
-  button.addEventListener("click", function() {
-  divToggle(button);
-});
 
   document.querySelector('.cards').appendChild(card);
 

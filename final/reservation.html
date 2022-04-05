@@ -1,11 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Temple Inn & Suites - Reservations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="George Blanchard">
+    <meta name="description" content="Reservation page for Temple Inn & Suites">
+    <!--Keep '?v=1' with favicon - helps it work for reasons I don't understand-->
+    <link rel="shortcut icon" href="favicon.ico?v=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+  <div id="content">
+    
+    <header  class="center">
+      <a id="logo" href="index.html"><img src="images/logo.webp" alt="Temple Inn & Suites logo"></a>
+      
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776; Menu</span><span>X Menu</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Reservations</a></li>
+          <li><a href="services.html">Guest Services</a></li>
+          <li><a href="temples.html">Temples</a></li>
+        </ul>  
+      </nav>
+    </header>
 
 
+    <main>  
+      <form method="get" action="thankyou.html">
+        <fieldset id="guest">
+          <legend>Reservation Request</legend>
+          <label>First Name*<input type="text" name="fname" required></label>
+          <label>Last Name*<input type="text" name="lname" required></label>
+          <label>Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
+          <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          
+        </fieldset>
 
+        <fieldset id="destination">
+          <legend>Destination</legend>
+          <label for="location">Location:</label>
+          <select id="location">
+            <option selected disabled>Select Location...</option>
+            <option value="indianapolis">Indianapolis Temple</option>
+            <option value="detroit">Detroit Temple</option>
+            <option value="chicago">Chicago Temple</option>
+            <option value="louisville">Louisville Temple</option>
+          </select>
+          <label for="start-date">From*</label>
+          <input type="date" name="start-date" required>
+          <label for="end-date">Until*</label>
+          <input type="date" name="end-date" required>
+          <label for="room-type-1">Room Type:</label>
+          <select id="room-type-1">
+            <option selected disabled>Select Room...</option>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="queen">Queen</option>
+            <option value="king">King</option>
+            <option value="suite">Kitchenette Suite</option>
+          </select>
+          <label for="room-num-1">Number of Rooms:</label>
+          <select id="room-num-1">
+            <option selected disabled>Number of Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6+">6+</option>
+          </select>
+          
+          <!--Add the 'more rooms' button?
+          js would create a new room-type-X and room-num-X and button-(X+1) with same stuff.
+          X button to kill new addition -->
 
+          <div id="pref">
+            <p>Preferred method of contact?</p>
+            <input type="checkbox" id="pref-phone">
+            <label for="pref-phone">Phone</label>
+            <input type="checkbox" id="pref-text">
+            <label for="pref-text">Text Message</label>
+            <input type="checkbox" id="pref-email">
+            <label for="pref-email">Email</label>
+            <input type="checkbox" id="pref-other">
+            <label for="pref-other">Other (specify below)</label>
+          </div>
+          
+        </fieldset>
 
+        <fieldset id="textfield">
+          <legend>Comments</legend>
+          <textarea id="comments" rows="6" placeholder="Please share any necessary details about your stay, such as  dietary needs, and/or special accommodations."></textarea>
+        </fieldset>
 
-<!--
+        <input class="submitBtn center" type="submit" value="Send Your Reservation">
 
-📄 The Reservation page contains a form that collects relevant information when making a normal stay reservation including the location, date, number and type of rooms, registrant's full name, email, phone, home state or country, and special accommodations/comments. Make sure to do some form validation.
+      </form>
+    </main>
+    
 
--->
+    <footer class="center">
+      <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d525.0116041060573!2d-77.09587491385709!3d38.983290411852494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2sus!4v1648914249024!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!--
+        Figure out why the console is freaking out 
+        API something-or-other
+        net::ERR_BLOCKED_BY_CLIENT
+      -->
+
+      <h2>&copy; XXXX - George Blanchard - Indiana </h2>
+      <p id="modDate">Last Updated XX</p>
+
+      <div id="social">
+        <a href="contact.html">Contact Us</a>
+        <a href="resources.html">Resources</a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook" ></a>
+        <a target="_blank" href="https://www.twitter.com/"><img src="images/twitter.webp" alt="Twitter" ></a>
+      </div>
+    </footer>
+  
+  </div>
+  <script src="js/burgers.js"></script>
+  
+</body>
+
+</html>

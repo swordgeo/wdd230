@@ -1,7 +1,5 @@
 @media (min-width: 52em) {
 
-
-
   #call-to-action {
     background-image: url("../images/index/suite-large.webp");
     height: 400px;
@@ -40,5 +38,36 @@
   div.info {
     display: block
   }
+
+  #destination {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+  }
+
+  #destination label {
+    padding: 10px;
+  }
+
+  #destination select, #destination input{
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  #location {
+    grid-column: 2/5;
+  }
+
+  #pref {
+    grid-column: 1/5;
+    display: inline;
+  }
+
+  #comments {
+    max-width: 750px;
+    min-width: 750px;
+  }
+
+
+
 
 }

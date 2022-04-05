@@ -15,20 +15,36 @@
     background-image: url("../images/index/suite-medium.webp");
   }
 
-
-
   #three-day {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
   
-
-
   iframe {
     width: 450px;
     height: 350px;
   }
 
+/* Form */
+
+  #guest, #destination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #guest label, #guest input {
+    padding: 10px;
+  }
+
+  #destination select, #destination input{
+    padding: 5px;
+    margin-top: 10px;
+  }
+
+  #pref {
+    grid-column: 1/3;
+    display: inline;
+  }
 
 }
