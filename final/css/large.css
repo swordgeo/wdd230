@@ -61,5 +61,14 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #amenities {grid-column: 1/3;}
+
+  #amenities ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
 
 }
