@@ -6,9 +6,5 @@ Like buttons on temples page
 
 flex - more rooms button script on reservation page
 
-resources page try to compile all the Googling I've been doing
 
-thankyou.html page after the form
-
-Contact Us Page at the bottom footer
 

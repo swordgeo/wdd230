@@ -46,20 +46,20 @@
 
         <fieldset id="destination">
           <legend>Destination</legend>
-          <label for="location">Location:</label>
-          <select id="location">
+          <label for="location">Location:*</label>
+          <select id="location" required>
             <option selected disabled>Select Location...</option>
             <option value="indianapolis">Indianapolis Temple</option>
             <option value="detroit">Detroit Temple</option>
             <option value="chicago">Chicago Temple</option>
             <option value="louisville">Louisville Temple</option>
           </select>
-          <label for="start-date">From*</label>
+          <label for="start-date">From*:</label>
           <input type="date" name="start-date" required>
-          <label for="end-date">Until*</label>
+          <label for="end-date">Until*:</label>
           <input type="date" name="end-date" required>
           <label for="room-type-1">Room Type:</label>
-          <select id="room-type-1">
+          <select id="room-type-1" required>
             <option selected disabled>Select Room...</option>
             <option value="single">Single</option>
             <option value="double">Double</option>

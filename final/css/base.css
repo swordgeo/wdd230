@@ -62,15 +62,18 @@ iframe {
   background-size: cover;
   position: relative;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#call-to-action h1 {
+#call-to-action h1, #call-to-action h2{
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-#call-to-action button {
-  position: absolute;
-  bottom: 25px;
+#call-to-action button{
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 #logo:hover {
