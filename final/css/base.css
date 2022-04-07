@@ -4,13 +4,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #0E6C48;
   font-family: 'Merriweather', serif;
   letter-spacing: 1px;
-  margin-bottom: 0px;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
-h3, h4, h5, h6 {
-  font-size: 1.2em;
-}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.3em;}
+h4, h5, h6 {font-size: 1.2em;}
 
 p {
   color: #875315;
@@ -28,26 +27,18 @@ main {
   padding: 5px;
 }
 
-a {
-  color: #9E09C3;
-}
+a {color: #9E09C3;}
 
-img {
-  max-width: 100%;
-}
+img {max-width: 100%;}
 
 section, aside {
   border: 1px solid;
   padding: 5px;
 }
 
-div {
-  padding: 5px;
-}
+div {padding: 5px;}
 
-button {
-  font-size: 1.2em;
-}
+button {font-size: 1.2em;}
 
 iframe {
   width: 350px;
@@ -70,16 +61,10 @@ iframe {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
   height: 250px;
 }
 
 #call-to-action h1 {
-  
-  /*color: #eeff58;
-  position: absolute;
-  top: 60px;
-  left: 60px;*/
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -89,7 +74,7 @@ iframe {
 }
 
 #logo:hover {
-filter: drop-shadow(5px 2px 2px #fff);
+  filter: drop-shadow(5px 2px 2px #fff);
 }
 
 #social {
@@ -99,17 +84,12 @@ filter: drop-shadow(5px 2px 2px #fff);
   gap: 10px;
 }
 
-
 /*hamburger*/
 
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav button {
-  
   margin: .2rem 2vw;
   background: transparent;
   border: none;
@@ -117,9 +97,7 @@ nav button {
   color: #555;
 }
 
-nav {
-  background-color:#FFD700;
-}
+nav {background-color:#FFD700;}
 
 nav ul {
   list-style-type: none;
@@ -140,9 +118,7 @@ nav ul li.active a {
   color: #fff;
 }
 
-nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
-}
+nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
 
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -175,9 +151,7 @@ nav ul.open {display: block;}
   transition: 0.3s;
 }
 
-.closebtn:hover {
-  color: black;
-}
+.closebtn:hover {color: black;}
 /*end alert div*/
 
 
@@ -189,7 +163,6 @@ nav ul.open {display: block;}
 }
 
 .dot {
-  
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -214,7 +187,7 @@ div.info.open {display: block;}
   margin: 0;
 }
 
-.cards section {
+.cards section, .services section {
   display: block;
   margin: 5px;
   padding: 5px;
@@ -253,7 +226,6 @@ fieldset#guest input {
   padding: 1rem;
   color: #875315;
   width: 100%;
-  
   background-color: rgba(0,0,0,0.1);
 }
 

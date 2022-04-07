@@ -12,18 +12,15 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .intro, .weather {
-    grid-column: 1/3;
-  }
+  .intro, .weather {grid-column: 1/3;}
 
   .weather {
     display: grid;
     grid-template-columns: 2fr 3fr;
-
   }
 
   iframe {
-    width: 500px;
+    width: 600px;
     height: 400px;
   }
 
@@ -32,30 +29,22 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .cards button {
-    display: none;
-  }
-  div.info {
-    display: block
-  }
+  .cards button {display: none;}
+  div.info {display: block}
 
   #destination {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr;
   }
 
-  #destination label {
-    padding: 10px;
-  }
+  #destination label {padding: 10px;}
 
   #destination select, #destination input{
     padding: 5px;
     margin-top: 10px;
   }
 
-  #location {
-    grid-column: 2/5;
-  }
+  #location {grid-column: 2/5;}
 
   #pref {
     grid-column: 1/5;
@@ -67,7 +56,10 @@
     min-width: 750px;
   }
 
-
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 
 }
